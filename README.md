@@ -100,7 +100,7 @@ POST /api/auth/register/
 {
   "name": "Fasil",
   "email": "fasil@gmail.com",
-  "password": "123",
+  "password": "Fasil@123",
   "role": "organizer"
 }
 ```
@@ -116,7 +116,7 @@ POST /api/auth/login/
 ```json
 {
   "email": "fasil@gmail.com",
-  "password": "123"
+  "password": "Fasil@123"
 }
 ```
 
@@ -302,11 +302,11 @@ POST /api/vendor/update-status/1/
 
 # 🧪 SAMPLE USERS
 
-| Role      | Email                                       | Password |
-| --------- | ------------------------------------------- | -------- |
-| Organizer | [fasil@gmail.com](mailto:fasil@gmail.com)   | 123      |
-| Customer  | [rahul@gmail.com](mailto:rahul@gmail.com)   | 123      |
-| Vendor    | [vishnu@gmail.com](mailto:vishnu@gmail.com) | 123      |
+| Role      | Email                          | Password |
+| --------- | ------------------------------ | -------- |
+| Organizer | [fasil@gmail.com]   | 123      |
+| Customer  | [rahul@gmail.com]   | 123      |
+| Vendor    | [vishnu@gmail.com] | 123       |
 
 ---
 
@@ -319,15 +319,6 @@ POST /api/vendor/update-status/1/
 
 ---
 
-# 🚀 Future Enhancements
-
-* Payment integration 💳
-* Notification system 🔔
-* Chat between users 💬
-* Admin dashboard 📊
-* Event analytics
-
----
 
 # 📌 Conclusion
 
